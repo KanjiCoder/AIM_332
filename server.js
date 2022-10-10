@@ -5114,7 +5114,7 @@ UPNG.encode.concatRGBA = function(bufs) {
                                                                  // [332]
         var dex ;                                                // [332]
         var len =( len_bin | len_hex );                          // [332]
-        for( dex = 0 ; dex <=(len) ; dex ++ ){                   // [332]
+        for( dex = 0 ; dex <=(len-1) ; dex ++ ){                 // [332][BUG_FIX_CARRIED_DOWN_FROM_VIDEO_NUMBER_333_FOR_SNAPSHOT]
                                                                  // [332]
             txt_bin = i_utt_bin[ dex ];                          // [332]
             num_hex = i_utt_hex[ dex ];                          // [332]

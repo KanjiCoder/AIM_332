@@ -5163,7 +5163,7 @@ UPNG.encode.concatRGBA = function(bufs) {
                                                                  // [332]
         var utt_hex =[                                           // [332]
             //: 000_DEG | 090_DEG | 180_DEG | 270_DEG :::://     // [332]
-        ,       0x0     , 0xC     , 0xF     , 0x3                // [332]
+        /** **/ 0x0     , 0xC     , 0xF     , 0x3                // [332][VIDEO_333_FIX_BROUGHT_INTO_SNAPSHOT_FROM_FUTURE]
         ,       0x1     , 0x8     , 0xE     , 0x7                // [332]
         ,       0x2     , 0x4     , 0xD     , 0xB                // [332]
         ,       0x3     , 0x0     , 0xC     , 0xF                // [332]
